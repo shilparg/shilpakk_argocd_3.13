@@ -4,7 +4,7 @@ metadata:
   name: sample-app
   namespace: shilpa-ns
 spec:
-  replicas: 2
+  replicas: 3 # changed from 2 → 3
   selector:
     matchLabels:
       app: sample-app
